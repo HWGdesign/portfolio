@@ -1,10 +1,11 @@
 import './App.css';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div>
-      <h1>Time to build portfolio!</h1>
+      <Projects />
       <Footer />
     </div>
   );
