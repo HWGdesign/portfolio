@@ -1,5 +1,3 @@
-import Github from './svg/Projects/Github';
-import OpenWindow from './svg/Projects/OpenWindow';
 function Projects() {
   return (
     <section className='text-gray-600 body-font'>

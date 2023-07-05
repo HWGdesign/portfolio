@@ -1,7 +1,3 @@
-import Github from './svg/Footer/Github';
-import Linkedin from './svg/Footer/Linkedin';
-import Behance from './svg/Footer/Behance';
-
 function Footer() {
   return (
     <footer className='text-gray-600 body-font'>
