@@ -15,9 +15,18 @@ function App() {
   return (
     !loading && (
       <div>
-        <div className=' bg-slate-100'>
+        <div className=' bg-gray-light'>
           <span className='flex items-center justify-center p-4'>
-            <span className=' text-stone-900 w-4 '>
+            <span className=' text-stone-900 w-20 text-white '>
+              <Icon.Logo />
+            </span>
+          </span>
+        </div>
+
+        <div className='grid grid-rows-2 items-center justify-center p-4'>
+          <h1>Here will be something cool. I guess...</h1>
+          <span className='flex items-center justify-center p-4'>
+            <span className=' text-stone-900 w-5 text-dark'>
               <Icon.Arrow />
             </span>
           </span>
