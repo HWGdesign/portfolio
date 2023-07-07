@@ -12,7 +12,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0096FF;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #3D3838;
 }
 
 .preloadContainer .svg{
@@ -20,7 +22,39 @@
   color: white;
 }
 
+.preloadContainer .loading{
+  width: 250px;
+  position: relative;
+  height: 2px;
+  background-color: #E7E7E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.preloadContainer .loading .loader{
+  position: absolute;
+  width: 250px;
+  height: 2px;
+  left:0px;
+  background-color: #0096FF;
+  animation: progress 1.15s ease-in-out forwards;
+  border-radius: 20px;
+}
+
+@keyframes progress {
+  0%{
+    width: 0;
+    
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+
 svg{
   width: 100%;
 }
-/* ---------------------------------------------------------------- */
