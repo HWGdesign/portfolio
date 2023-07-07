@@ -22,6 +22,7 @@ import ReactIcon from './svg/React';
 import SassIcon from './svg/Sass';
 import TailwindIcon from './svg/Tailwind';
 import TypeScriptIcon from './svg/TypeScript';
+import LogoIcon from './svg/Logo';
 
 //----------------------------------------------------------------
 
@@ -50,4 +51,5 @@ export const Icon = {
   Sass: SassIcon,
   Tailwind: TailwindIcon,
   TypeScript: TypeScriptIcon,
+  Logo: LogoIcon,
 };

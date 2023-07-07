@@ -1,17 +1,29 @@
+import React, { useState } from 'react';
 import { Icon } from './components/Icons/Icon.jsx';
 import './App.css';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById('spinner');
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = 'none';
+      setLoading(false);
+    }, 2000);
+  }
+
   return (
-    <div>
-      <div className=' bg-slate-100'>
-        <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
-          <span style={{ color: 'blue', width: '3rem' }}>
-            <Icon.TypeScript />
+    !loading && (
+      <div>
+        <div className=' bg-slate-100'>
+          <span className='flex items-center justify-center p-4'>
+            <span className=' text-stone-900 w-4 '>
+              <Icon.Arrow />
+            </span>
           </span>
-        </span>
+        </div>
       </div>
-    </div>
+    )
   );
 }
 
