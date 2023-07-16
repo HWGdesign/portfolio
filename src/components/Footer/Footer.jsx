@@ -2,7 +2,7 @@ import { Icon } from '../Icons/Icon';
 
 const Footer = () => {
   return (
-    <footer className='px-5 py-5 border-t-gray-light border-t-[1px] bg-white grid grid-row-3 justify-center sm:grid-flow-col sm:items-center sm:justify-around h-32'>
+    <footer className='p-5 border-t-gray-light border-t-[1px] bg-white grid grid-row-3 justify-center sm:grid-flow-col sm:items-center sm:justify-around h-32'>
       <div className='sm:flex sm:items-center sm:pl-5 '>
         <div className='cursor-pointer' href='#'>
           <span className='flex justify-center items-center'>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex justify-center sm:pr-5'>
+      <div className='flex justify-center sm:pr-5 sm:pb-0 pb-5'>
         <a className=' mx-3 w-6 text-gray-medium cursor-pointer' href='https://github.com/HWGdesign' target='blank'>
           <Icon.Github />
         </a>

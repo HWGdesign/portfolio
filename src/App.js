@@ -30,14 +30,6 @@ function App() {
           </span>
         </div>
 
-        <div className='grid grid-rows-2 items-center justify-center p-4'>
-          <h1>Here will be something cool. I guess...</h1>
-          <span className='flex items-center justify-center'>
-            <span className=' text-stone-900 w-4 text-dark '>
-              <Icon.Arrow />
-            </span>
-          </span>
-        </div>
         {/* <Projects /> */}
         <Services />
         <Footer />

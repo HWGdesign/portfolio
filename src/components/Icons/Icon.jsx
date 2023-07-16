@@ -24,7 +24,9 @@ import TailwindIcon from './svg/Tailwind';
 import TypeScriptIcon from './svg/TypeScript';
 import LogoIcon from './svg/Logo';
 import WebIcon from './svg/Web';
-
+import DesignIcon from './svg/Design';
+import UxUiIcon from './svg/UxUi';
+import PersonalProjectIcon from './svg/PersonalProject';
 //----------------------------------------------------------------
 
 //Export all Icons
@@ -36,6 +38,7 @@ export const Icon = {
   DarkModeEmpty: DarkModeEmptyIcon,
   DarkModeFull: DarkModeFullIcon,
   DropdownArrow: DropdownArrowIcon,
+  Design: DesignIcon,
   Html: HtmlIcon,
   Git: GitIcon,
   Github: GithubIcon,
@@ -47,11 +50,13 @@ export const Icon = {
   Message: MessageIcon,
   MessageSent: MessageSentIcon,
   OpenNewWindow: OpenNewWindowIcon,
+  PersonalProject: PersonalProjectIcon,
   Phone: PhoneIcon,
   React: ReactIcon,
   Sass: SassIcon,
   Tailwind: TailwindIcon,
   TypeScript: TypeScriptIcon,
+  UiUx: UxUiIcon,
   Logo: LogoIcon,
   Web: WebIcon,
 };
