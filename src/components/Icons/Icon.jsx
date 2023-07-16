@@ -23,6 +23,7 @@ import SassIcon from './svg/Sass';
 import TailwindIcon from './svg/Tailwind';
 import TypeScriptIcon from './svg/TypeScript';
 import LogoIcon from './svg/Logo';
+import WebIcon from './svg/Web';
 
 //----------------------------------------------------------------
 
@@ -52,4 +53,5 @@ export const Icon = {
   Tailwind: TailwindIcon,
   TypeScript: TypeScriptIcon,
   Logo: LogoIcon,
+  Web: WebIcon,
 };
