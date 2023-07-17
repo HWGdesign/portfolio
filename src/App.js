@@ -16,22 +16,13 @@ function App() {
       setLoading(false);
     }, 1350);
   }
-
   //----------------------------------------------------------------
   //Current App:
   return (
     !loading && (
       <div>
-        <div className=' bg-blue'>
-          <span className='flex items-center justify-center p-4'>
-            <span className=' text-stone-900 w-14 text-white '>
-              <Icon.Logo />
-            </span>
-          </span>
-        </div>
-
-        {/* <Projects /> */}
         <Services />
+        {/* <Projects /> */}
         <Footer />
       </div>
     )
