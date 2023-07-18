@@ -58,3 +58,10 @@
 svg{
   width: 100%;
 }
+
+image{
+  width: 100%;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}

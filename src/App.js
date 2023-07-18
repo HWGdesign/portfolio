@@ -21,9 +21,9 @@ function App() {
   return (
     !loading && (
       <div>
-        <Services />
-        {/* <Projects /> */}
-        <Footer />
+        {/* <Services /> */}
+        <Projects />
+        {/* <Footer /> */}
       </div>
     )
   );

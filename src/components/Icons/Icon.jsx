@@ -27,6 +27,8 @@ import WebIcon from './svg/Web';
 import DesignIcon from './svg/Design';
 import UxUiIcon from './svg/UxUi';
 import PersonalProjectIcon from './svg/PersonalProject';
+import FigmaIcon from './svg/Figma';
+import IllustratorIcon from './svg/AdobeIllurstrator';
 //----------------------------------------------------------------
 
 //Export all Icons
@@ -39,10 +41,12 @@ export const Icon = {
   DarkModeFull: DarkModeFullIcon,
   DropdownArrow: DropdownArrowIcon,
   Design: DesignIcon,
-  Html: HtmlIcon,
+  Figma: FigmaIcon,
   Git: GitIcon,
   Github: GithubIcon,
+  Html: HtmlIcon,
   Instagram: InstagramIcon,
+  Illustrator: IllustratorIcon,
   JavaScript: JavaScriptIcon,
   LightModeEmpty: LightModeEmptyIcon,
   LightModeFull: LightModeFullIcon,

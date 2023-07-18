@@ -1,3 +1,4 @@
+import Images from '../images/Images.jsx';
 import { Icon } from '../Icons/Icon';
 
 const Projects = () => {
@@ -9,38 +10,99 @@ const Projects = () => {
         <h1>PORTFOLIO</h1>
       </div>
 
-      <div class='mx-auto pb-5'>
+      <div class='container sm:p-1 mx-auto'>
         <div class='flex flex-wrap'>
-          {/* end */}
-
-          <div class='flex flex-wrap justify-center py-5'>
-            <div class='xl:w-1/4 md:w-1/2'>
-              <div class='border border-grayLt p-5 m-5 rounded-lg relative h-auto w-auto'>
-                <h2 class='tracking-widest text-xs title-font font-medium text-grayLt mb-1'>GRAPHIC DESIGN</h2>
-                <h1 class='title-font text-lg font-medium text-dark mb-3'>Barbershop logo</h1>
-                <p class='leading-relaxed mb-3'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                <div class='flex items-center flex-wrap '>
-                  <a class='text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0'>
-                    Learn More
-                    <svg class='w-4 h-4 ml-2' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'>
-                      <path d='M5 12h14'></path>
-                      <path d='M12 5l7 7-7 7'></path>
-                    </svg>
-                  </a>
-                  <span class='text-grayMd mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200'>
-                    <span class=' text-grayMd inline-flex items-center leading-none text-sm w-5'>
-                      <Icon.Github />
-                    </span>
+          {/* app */}
+          <div class='p-5 md:p-5 sm:p-1 sm:w-1/3 '>
+            <div class='h-full border-2 border-grayMd border-opacity-60 rounded-lg overflow-hidden'>
+              <div class='p-6'>
+                <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
+                <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
+                <div class='flex items-center justify-center w-90 h-90'>
+                  <img class='h-full w-full object-cover' src={Images.barber} alt='barber' />
+                </div>
+                <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>MADE WITH:</h2>
+                <div class='flex justify-start'>
+                  <span class='w-6 text-grayMd my-2 mr-3'>
+                    <Icon.Figma />
                   </span>
-                  <span class=' text-grayMd inline-flex items-center leading-none text-sm w-5'>
-                    <Icon.OpenNewWindow />
+                  <span class='w-6 text-grayMd my-2 mr-3'>
+                    <Icon.Illustrator />
                   </span>
                 </div>
+                <p class='leading-relaxed mb-3'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <a href='#' class='flex text-sm font-semibold text-blue pt-3'>
+                  Learn More
+                  <div class='mb-1 mx-2 w-4 -rotate-90'>
+                    <span>
+                      <Icon.Arrow />
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class='p-5 md:p-5 sm:p-1 sm:w-1/3 '>
+            <div class='h-full border-2 border-grayMd border-opacity-60 rounded-lg overflow-hidden'>
+              <div class='p-6'>
+                <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
+                <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
+                <div class='flex items-center justify-center w-90 h-90'>
+                  <img class='h-full w-full object-cover' src={Images.barber} alt='barber' />
+                </div>
+                <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>MADE WITH:</h2>
+                <div class='flex justify-start'>
+                  <span class='w-6 text-grayMd my-2 mr-3'>
+                    <Icon.Figma />
+                  </span>
+                  <span class='w-6 text-grayMd my-2 mr-3'>
+                    <Icon.Illustrator />
+                  </span>
+                </div>
+                <p class='leading-relaxed mb-3'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <a href='#' class='flex text-sm font-semibold text-blue pt-3'>
+                  Learn More
+                  <div class='mb-1 mx-2 w-4 -rotate-90'>
+                    <span>
+                      <Icon.Arrow />
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class='p-5 md:p-5 sm:p-1 sm:w-1/3 '>
+            <div class='h-full border-2 border-grayMd border-opacity-60 rounded-lg overflow-hidden'>
+              <div class='p-6'>
+                <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
+                <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
+                <div class='flex items-center justify-center w-90 h-90'>
+                  <img class='h-full w-full object-cover' src={Images.barber} alt='barber' />
+                </div>
+                <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>MADE WITH:</h2>
+                <div class='flex justify-start'>
+                  <span class='w-6 text-grayMd my-2 mr-3'>
+                    <Icon.Figma />
+                  </span>
+                  <span class='w-6 text-grayMd my-2 mr-3'>
+                    <Icon.Illustrator />
+                  </span>
+                </div>
+                <p class='leading-relaxed mb-3'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <a href='#' class='flex text-sm font-semibold text-blue pt-3'>
+                  Learn More
+                  <div class='mb-1 mx-2 w-4 -rotate-90'>
+                    <span>
+                      <Icon.Arrow />
+                    </span>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div class='flex text-center justify-center text-grayLt text-sm font-medium hover:text-grayMd hover:cursor-pointer'>See more</div>
       </div>
     </section>
   );
