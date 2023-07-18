@@ -13,8 +13,8 @@ const Projects = () => {
       <div class='container sm:p-1 mx-auto'>
         <div class='flex flex-wrap'>
           {/* app */}
-          <div class='p-5 md:p-5 sm:p-1 sm:w-1/3 '>
-            <div class='h-full border-2 border-grayMd border-opacity-60 rounded-lg overflow-hidden'>
+          <div class='md:p-3 sm:p-8 p-5 md:w-1/3 '>
+            <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden'>
               <div class='p-6'>
                 <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
                 <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
@@ -43,8 +43,8 @@ const Projects = () => {
             </div>
           </div>
 
-          <div class='p-5 md:p-5 sm:p-1 sm:w-1/3 '>
-            <div class='h-full border-2 border-grayMd border-opacity-60 rounded-lg overflow-hidden'>
+          <div class='md:p-3 sm:p-8 p-5 md:w-1/3 '>
+            <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden'>
               <div class='p-6'>
                 <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
                 <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
@@ -73,8 +73,8 @@ const Projects = () => {
             </div>
           </div>
 
-          <div class='p-5 md:p-5 sm:p-1 sm:w-1/3 '>
-            <div class='h-full border-2 border-grayMd border-opacity-60 rounded-lg overflow-hidden'>
+          <div class='md:p-3 sm:p-8 p-5 md:w-1/3 '>
+            <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden'>
               <div class='p-6'>
                 <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
                 <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
