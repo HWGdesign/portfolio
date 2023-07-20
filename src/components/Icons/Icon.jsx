@@ -29,6 +29,10 @@ import UxUiIcon from './svg/UxUi';
 import PersonalProjectIcon from './svg/PersonalProject';
 import FigmaIcon from './svg/Figma';
 import IllustratorIcon from './svg/AdobeIllurstrator';
+
+//Decor list:
+
+import SquaresDecoration from './decor/Squares';
 //----------------------------------------------------------------
 
 //Export all Icons
@@ -63,4 +67,5 @@ export const Icon = {
   UiUx: UxUiIcon,
   Logo: LogoIcon,
   Web: WebIcon,
+  SquaresDecoration: SquaresDecoration,
 };
