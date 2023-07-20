@@ -2,18 +2,14 @@ import { Icon } from '../Icons/Icon';
 
 const Home = () => {
   return (
-    <section class=' w-full h-screen mx-auto container relative justify-center'>
+    <section class='w-full h-screen mx-auto container relative justify-center pt-[100px]'>
       <div class='py- m-5 flex font-semibold '>
         <h1>O1</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
         <h1>HOME</h1>
       </div>
 
-      <div class='absolute top-1/2 left-[40px] -z-10 text-grayLt sm:left p-3'>
-        <Icon.SquaresDecoration />
-      </div>
-
-      <div class='absolute grid gap-5 left-1/2 right-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto w-full'>
+      <div class='absolute grid gap-5 left-1/2 right-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full mx-auto'>
         <div>
           <div class='flex items-center justify-center text-3xl text-blue font-bold'>
             <h1>Hello there! 👋🏻</h1>
@@ -27,7 +23,11 @@ const Home = () => {
         </div>
 
         <div class='grid gap-5'>
-          <div class='flex items-center justify-center'>
+          <div class='flex items-center justify-center relative w-full'>
+            <div class='absolute text-grayLt top-1/2 bottom-1/2 left-[40px] p-3'>
+              <Icon.SquaresDecoration />
+            </div>
+
             <div class='flex items-center justify-center bg-blue h-[50px] w-[200px] font-semibold text-base text-white relative '>
               Hire me
               <div class='absolute h-[50] w-[50px] flex justify-center items-center right-0 top-0 bottom-0'>
