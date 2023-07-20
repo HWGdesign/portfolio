@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Icon } from './components/Icons/Icon.jsx';
+import Home from './components/Home/Home.jsx';
 import Services from './components/Services/Services.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import Footer from './components/Footer/Footer.jsx';
@@ -21,6 +22,7 @@ function App() {
   return (
     !loading && (
       <div>
+        <Home />
         <Services />
         <Projects />
         <Footer />
