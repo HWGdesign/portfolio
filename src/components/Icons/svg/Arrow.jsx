@@ -3,7 +3,7 @@ import IconWrapper from '../IconWrapper';
 const ArrowIcon = () => {
   return (
     <IconWrapper>
-      <path id='Vector' d='M12 6L10.9425 4.9425L6.75 9.1275L6.75 -2.29485e-07L5.25 -2.95052e-07L5.25 9.1275L1.0575 4.9425L-2.62268e-07 6L6 12L12 6Z' fill='currentColor' />
+      <path d='M16 8L14.59 6.59L9 12.17L9 -3.0598e-07L7 -3.93403e-07L7 12.17L1.41 6.59L-8.26528e-07 8L8 16L16 8Z' fill='currentColor' />
     </IconWrapper>
   );
 };

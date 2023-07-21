@@ -11,14 +11,17 @@ const Home = () => {
 
       <div class='absolute grid gap-5 left-1/2 right-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full mx-auto'>
         <div>
-          <div class='flex items-center justify-center text-3xl text-blue font-bold'>
-            <h1>Hello there! 👋🏻</h1>
+          <div class='flex items-center justify-center text-3xl sm:text-4xl text-blue font-bold'>
+            <h1>Hello friend! 👋🏻</h1>
           </div>
         </div>
 
-        <div class='flex items-center justify-center text-center p-5 font-semibold'>
+        <div class='flex items-center justify-center text-center sm:text-lg text-md text- p-5 font-semibold  tracking-wide'>
           <p>
-            I will transform your idea into reality.<br></br> <span class='text-blue'>Websites, UI Concepts, Creative designs.</span> It's time to bring your vision to life!
+            Great that you dropped by! <br></br>
+            <span class='text-blue font-bold'>Websites, Graphic designs, UI & UX. </span>
+            <br />
+            It's time to bring your vision to life!
           </p>
         </div>
 
@@ -28,34 +31,32 @@ const Home = () => {
               <Icon.SquaresDecoration />
             </div>
 
-            <div class='flex items-center justify-center bg-blue h-[50px] w-[200px] font-semibold text-base text-white relative '>
+            <div class='hover:shadow-sm rounded-md  hover:scale-105 cursor-pointer duration-200 flex items-center justify-center bg-blue h-[50px] w-[200px] font-semibold text-base text-white relative '>
               Hire me
               <div class='absolute h-[50] w-[50px] flex justify-center items-center right-0 top-0 bottom-0'>
-                <span class='w-4 text-white -rotate-90'>
+                <span class='w-3 text-white -rotate-90'>
                   <Icon.Arrow />
                 </span>
               </div>
-              <div class='w-[200px] h-[50px] border-2 border-blue absolute top-[5px] left-[5px]'></div>
             </div>
           </div>
 
           <div class='flex items-center justify-center'>
-            <div class='flex items-center justify-center bg-white border-grayMd border-2 text-dark h-[50px] w-[200px] font-semibold text-base relative '>
+            <div class='hover:shadow-sm rounded-md  hover:scale-105 cursor-pointer duration-200 flex items-center justify-center bg-white border-grayMd border-2 text-dark h-[50px] w-[200px] font-semibold text-base relative z-10 '>
               Portfolio
               <div class='absolute h-[50] w-[50px] flex justify-center items-center right-0 top-0 bottom-0'>
-                <span class='w-4 text-dark -rotate-90'>
+                <span class='w-3 text-dark -rotate-90'>
                   <Icon.Arrow />
                 </span>
               </div>
-              <div class='w-[200px] h-[50px] border-2 border-grayMd absolute top-[5px] left-[5px] -z-10'></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class='flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[100px]'>
-        <div class='h-[20] w-[20px]'>
-          <span class=' text-dark'>
+      <div class='group flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[100px]'>
+        <div class='hover:scale-105 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
+          <span class='group-hover:scale-110 w-4 text-dark justify-center items-center flex'>
             <Icon.Arrow />
           </span>
         </div>

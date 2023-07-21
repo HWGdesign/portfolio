@@ -23,7 +23,7 @@
 }
 
 .preloadContainer .loading{
-  width: 250px;
+  width: 150px;
   position: relative;
   height: 2px;
   background-color: #E7E7E7;
@@ -35,11 +35,11 @@
 
 .preloadContainer .loading .loader{
   position: absolute;
-  width: 250px;
+  width: 150px;
   height: 2px;
   left:0px;
   background-color: #0096FF;
-  animation: progress 1.15s ease-in-out forwards;
+  animation: progress 0.85s ease-in-out forwards;
   border-radius: 20px;
 }
 
