@@ -2,7 +2,7 @@ import { Icon } from '../Icons/Icon';
 
 const Home = () => {
   return (
-    <section class='w-full h-screen mx-auto container relative justify-center pt-[100px]'>
+    <section class='w-full h-screen mx-auto container relative justify-center pt-[100px] md:w-4/5'>
       <div class='py- m-5 flex font-semibold '>
         <h1>O1</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
