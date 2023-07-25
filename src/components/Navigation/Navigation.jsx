@@ -1,15 +1,16 @@
 import { Icon } from '../Icons/Icon';
+import DarkModeSwitch from './DarkModeSwitch';
 
 const Navigaiton = () => {
   return (
-    <header class='bg-white h-[100px] fixed w-full z-10 border-b border-grayLt flex items-center justify-between px-[50px]'>
-      <div class='w-[100px] h-full flex items-center'>
+    <header class='bg-white h-[100px] fixed w-full z-10 border-b border-grayLt flex items-center justify-between px-[3.5%] sm:px-[7.5%]'>
+      <div class='w-[100px] h-[100px] flex items-center justify-center'>
         <span class='w-[50px] text-blue'>
           <Icon.Logo />
         </span>
       </div>
 
-      <div class='hidden lg:block flex justify-center items-center'>
+      <div class='hidden lg:block justify-center items-center '>
         <ul class='flex gap-10  font-medium justify-center'>
           <li>
             <div class='group  grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
@@ -48,13 +49,12 @@ const Navigaiton = () => {
           </li>
         </ul>
       </div>
-      <div class='w-fit'>
-        <div class='flex items-center justify-center bg-white border border-grayLt px-3 py-2 gap-4 rounded-full'>
-          <span class='w-[20px] text-grayLt m-[2px] cursor-pointer'>
-            <Icon.DarkModeEmpty />
-          </span>
-          <span class='w-[20px] text-blue m-[2px] cursor-pointer'>
-            <Icon.LightModeFull />
+
+      <div class='flex gap-[10px]'>
+        <DarkModeSwitch />
+        <div class='flex justify-center items-center h-[50px] w-[50px] lg:hidden l'>
+          <span className='w-6'>
+            <Icon.Hamburger />
           </span>
         </div>
       </div>

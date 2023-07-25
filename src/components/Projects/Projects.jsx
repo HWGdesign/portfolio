@@ -15,7 +15,7 @@ const Projects = () => {
           <div class='flex flex-wrap'>
             {/* app */}
             <div class='md:p-3 sm:p-8 p-5 md:w-1/3 '>
-              <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden'>
+              <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden hover:scale-105 duration-200 hover:shadow-sm'>
                 <div class='p-6'>
                   <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
                   <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
@@ -45,7 +45,7 @@ const Projects = () => {
             </div>
 
             <div class='md:p-3 sm:p-8 p-5 md:w-1/3 '>
-              <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden'>
+              <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden hover:scale-105 duration-200 hover:shadow-sm'>
                 <div class='p-6'>
                   <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
                   <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
 
             <div class='md:p-3 sm:p-8 p-5 md:w-1/3 '>
-              <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden'>
+              <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden hover:scale-105 duration-200 hover:shadow-sm'>
                 <div class='p-6'>
                   <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>GRAPHIC DESIGN</h2>
                   <h1 class='text-lg font-semibold text-dark'>BARBER SHOP LOGO</h1>

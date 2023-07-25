@@ -55,8 +55,8 @@ const Home = () => {
       </div>
 
       <div class='group flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[7.5%]'>
-        <div class='hover:scale-105 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
-          <span class='group-hover:scale-110 w-4 text-dark justify-center items-center flex'>
+        <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
+          <span class='w-full text-dark justify-center items-center flex'>
             <Icon.Arrow />
           </span>
         </div>

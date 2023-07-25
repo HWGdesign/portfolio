@@ -29,6 +29,7 @@ import UxUiIcon from './svg/UxUi';
 import PersonalProjectIcon from './svg/PersonalProject';
 import FigmaIcon from './svg/Figma';
 import IllustratorIcon from './svg/AdobeIllurstrator';
+import HamburgerIcon from './svg/Hamburger';
 
 //Decor list:
 
@@ -48,6 +49,7 @@ export const Icon = {
   Figma: FigmaIcon,
   Git: GitIcon,
   Github: GithubIcon,
+  Hamburger: HamburgerIcon,
   Html: HtmlIcon,
   Instagram: InstagramIcon,
   Illustrator: IllustratorIcon,
