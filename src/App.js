@@ -24,7 +24,7 @@ function App() {
   //Current App:
   return (
     !loading && (
-      <main class='relative'>
+      <main>
         <Navigation />
         <Fade bottom>
           <Home />

@@ -4,11 +4,13 @@ import DarkModeSwitch from './DarkModeSwitch';
 const Navigaiton = () => {
   return (
     <header class='bg-white h-[100px] fixed w-full z-10 border-b border-grayLt flex items-center justify-between px-[3.5%] sm:px-[7.5%]'>
-      <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer w-[100px] h-[100px] flex items-center justify-center'>
-        <span class='w-[50px] text-blue'>
-          <Icon.Logo />
-        </span>
-      </div>
+      <a href='#home'>
+        <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer w-[100px] h-[100px] flex items-center justify-center'>
+          <span class='w-[50px] text-blue'>
+            <Icon.Logo />
+          </span>
+        </div>
+      </a>
 
       <div class='hidden lg:block justify-center items-center '>
         <ul class='flex gap-10  font-medium justify-center'>

@@ -4,8 +4,13 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
-
 }
+
+#home, #services, #portfolio{
+  scroll-margin-top: 115px;
+}
+
+
 :root {
   --blue: #0096FF;
   --dark: #3D3838;

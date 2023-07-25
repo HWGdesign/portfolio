@@ -3,7 +3,7 @@ import { Icon } from '../Icons/Icon.jsx';
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' class='mx-auto container pt-[100px]'>
+    <section id='portfolio' class='mx-auto container'>
       <div class='py-2 m-5 flex font-semibold'>
         <h1>O3</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
@@ -89,7 +89,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div class='flex justify-center items-center text-sm font-semibold text-grayLt py-5 hover:text-blue cursor-pointer hover:scale-105 duration-200'>See all</div>
+          {/* <div class='flex justify-center items-center text-sm font-semibold text-grayMd py-5 hover:text-blue cursor-pointer hover:scale-105 duration-200'>See all</div> */}
         </div>
       </div>
     </section>

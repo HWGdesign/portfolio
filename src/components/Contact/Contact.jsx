@@ -2,7 +2,7 @@ import { Icon } from '../Icons/Icon';
 
 const Contact = () => {
   return (
-    <section id='contact' class='text-dark container mx-auto pt-[100px] pb-[175px]'>
+    <section id='contact' class='text-dark container mx-auto pb-[50px]'>
       <div class='mx-5 my-8 flex font-semibold '>
         <h1>O4</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-md-full'></div>
