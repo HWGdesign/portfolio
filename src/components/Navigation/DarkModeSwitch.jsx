@@ -2,13 +2,17 @@ import { Icon } from '../Icons/Icon';
 const DarkModeSwitch = () => {
   return (
     <div class='w-fit flex items-center justify-center'>
-      <div class='flex items-center justify-center bg-white border border-grayLt px-3 py-2 gap-4 rounded-full'>
-        <span class='w-[20px] text-grayLt m-[2px] cursor-pointer'>
-          <Icon.DarkModeEmpty />
-        </span>
-        <span class='w-[20px] text-blue m-[2px] cursor-pointer'>
-          <Icon.LightModeFull />
-        </span>
+      <div class='flex items-center justify-between bg-white border border-grayLt rounded-full w-[80px] h-[40px]'>
+        <div class=' cursor-pointer h-[25px] w-[25px] rounded-full bg-blue mx-[7.5px]'>
+          <div class='scale-75 text-white'>
+            <Icon.LightModeFull />
+          </div>
+        </div>
+        <div class=' cursor-pointer h-[25px] w-[25px] rounded-full bg-white mx-[7.5px]'>
+          <div class='scale-75 text-grayLt'>
+            <Icon.DarkModeEmpty />
+          </div>
+        </div>
       </div>
     </div>
   );

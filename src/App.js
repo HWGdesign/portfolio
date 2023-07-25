@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Navigaiton from './components/Navigation/Navigation.jsx';
+import Fade from 'react-reveal/Fade';
+import Navigation from './components/Navigation/Navigation.jsx';
 import Home from './components/Home/Home.jsx';
 import Services from './components/Services/Services.jsx';
 import Projects from './components/Projects/Projects.jsx';
@@ -24,11 +25,13 @@ function App() {
   return (
     !loading && (
       <main>
-        <Navigaiton />
-        <Home />
-        <Services />
-        <Projects />
-        <Contact />
+        <Navigation />
+        <Fade bottom>
+          <Home />
+          <Services />
+          <Projects />
+          <Contact />
+        </Fade>
         <Footer />
       </main>
     )
