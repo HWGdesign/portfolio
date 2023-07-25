@@ -3,7 +3,7 @@ import Slide from 'react-reveal/Slide';
 
 const Home = () => {
   return (
-    <section class='w-full h-screen mx-auto container relative justify-center pt-[100px]'>
+    <section id='home' class='w-full h-screen mx-auto container relative justify-center pt-[100px]'>
       <div class='py- m-5 flex font-semibold '>
         <h1>O1</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
@@ -56,7 +56,9 @@ const Home = () => {
       <div class='group flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[7.5%]'>
         <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
           <span class='w-full text-dark justify-center items-center flex'>
-            <Icon.Arrow />
+            <a href='#services'>
+              <Icon.Arrow />
+            </a>
           </span>
         </div>
       </div>

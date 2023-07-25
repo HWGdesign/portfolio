@@ -2,17 +2,17 @@ import { Icon } from '../Icons/Icon';
 
 const Contact = () => {
   return (
-    <section class='text-dark container mx-auto'>
-      <div class='m-5 flex font-semibold '>
+    <section id='contact' class='text-dark container mx-auto pt-[100px] pb-[175px]'>
+      <div class='mx-5 my-8 flex font-semibold '>
         <h1>O4</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-md-full'></div>
         <h1>CONTACT</h1>
       </div>
 
-      <div class='container mx-auto px-5 pb-12 '>
+      <div class='container mx-auto pt-5'>
         <div class='flex flex-col text-center w-full'>
           <h1 class='flex items-center justify-center text-3xl sm:text-4xl text-blue font-bold pb-5'>Have a project in mind?</h1>
-          <div className='pt-2 pb-4 text-ellipsis w-full  mx-auto'>
+          <div className='pt-2 pb-4 px-5  text-ellipsis w-full  mx-auto'>
             <p class='font-semibold text-grayMd text-ellipsis'>Say hello, and let's work together to make your vision come true!</p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div class='flex flex-wrap -m-2'>
+          <div class='flex flex-wrap -m-2 px-5'>
             <div class='p-2 sm:w-1/2 w-full'>
               <div class='relative'>
                 <label for='name' class='leading-7 text-sm text-dark font-semibold'>
@@ -78,7 +78,7 @@ const Contact = () => {
                 <textarea
                   id='message'
                   name='message'
-                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-dark py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 h-[200px] text-base outline-none text-dark py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
                 ></textarea>
               </div>
             </div>

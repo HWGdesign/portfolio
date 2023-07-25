@@ -16,7 +16,7 @@ const Navigaiton = () => {
             <div class='group hover:scale-105 duration-200 hover:shadow-sm grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
               <span class='group-hover:text-blue  text-grayMd'>01</span>
               <div class='text-base '>
-                <a href='#'>HOME</a>
+                <a href='#home'>HOME</a>
               </div>
             </div>
           </li>
@@ -25,7 +25,7 @@ const Navigaiton = () => {
             <div class='group hover:scale-105 duration-200 hover:shadow-sm grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
               <span class='group-hover:text-blue text-grayMd'>02</span>
               <div class='text-base '>
-                <a href='#'>SERVICES</a>
+                <a href='#services'>SERVICES</a>
               </div>
             </div>
           </li>
@@ -34,7 +34,7 @@ const Navigaiton = () => {
             <div class='group hover:scale-105 duration-200 hover:shadow-sm grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
               <span class='group-hover:text-blue text-grayMd'>03</span>
               <div class='text-base '>
-                <a href='#'>PORTFOLIO</a>
+                <a href='#portfolio'>PORTFOLIO</a>
               </div>
             </div>
           </li>
@@ -43,7 +43,7 @@ const Navigaiton = () => {
             <div class='group hover:scale-105 duration-200 hover:shadow-sm grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
               <span class='group-hover:text-blue text-grayMd'>04</span>
               <div class='text-base '>
-                <a href='#'>CONTACT</a>
+                <a href='#contact'>CONTACT</a>
               </div>
             </div>
           </li>

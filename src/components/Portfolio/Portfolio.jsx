@@ -1,9 +1,9 @@
 import Images from '../images/Images.jsx';
-import { Icon } from '../Icons/Icon';
+import { Icon } from '../Icons/Icon.jsx';
 
-const Projects = () => {
+const Portfolio = () => {
   return (
-    <section class='mx-auto container'>
+    <section id='portfolio' class='mx-auto container pt-[100px]'>
       <div class='py-2 m-5 flex font-semibold'>
         <h1>O3</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
@@ -96,4 +96,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Portfolio;

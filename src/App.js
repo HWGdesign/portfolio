@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import Navigation from './components/Navigation/Navigation.jsx';
 import Home from './components/Home/Home.jsx';
 import Services from './components/Services/Services.jsx';
-import Projects from './components/Projects/Projects.jsx';
+import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import './App.css';
@@ -24,12 +24,12 @@ function App() {
   //Current App:
   return (
     !loading && (
-      <main>
+      <main class='relative'>
         <Navigation />
         <Fade bottom>
           <Home />
           <Services />
-          <Projects />
+          <Portfolio />
           <Contact />
         </Fade>
         <Footer />

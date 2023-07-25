@@ -2,7 +2,7 @@ import { Icon } from '../Icons/Icon';
 
 const Footer = () => {
   return (
-    <footer className='p-5 border-t-grayLt border-t-[1px] bg-white grid grid-row-3 justify-center sm:grid-flow-col sm:items-center sm:justify-around h-32'>
+    <footer className='p-5 border-t-grayLt border-t-[1px] bg-white grid grid-row-3 justify-center sm:grid-flow-col sm:items-center sm:justify-around h-32 absolute bottom-0 right-0 left-0'>
       <div className='sm:flex sm:items-center sm:pl-5 '>
         <div className='cursor-pointer' href='#'>
           <span className='flex justify-center items-center'>

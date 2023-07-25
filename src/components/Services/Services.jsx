@@ -2,7 +2,7 @@ import { Icon } from '../Icons/Icon';
 
 const Services = () => {
   return (
-    <section class='container mx-auto w-full'>
+    <section id='services' class='container mx-auto w-full pt-[100px] pb-[100px]'>
       <div class='py-2 m-5 flex font-semibold'>
         <h1>O2</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
