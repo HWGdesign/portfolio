@@ -4,9 +4,18 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+:root {
+  --blue: #0096FF;
+  --dark: #3D3838;
+  --grayMd: #A9A7A7;
+  --grayLt: #E7E7E7;
+  
+}
+
 /* ---------------------------------------------------------------- */
 /* Preload: */
 .preloadContainer{
+  position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -14,31 +23,36 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  background-color: #3D3838;
+  background-color: var(--blue);
 }
 
 .preloadContainer .svg{
-  width: 5rem;
+  position: absolute;
+  scale: 150%;
   color: white;
 }
 
 .preloadContainer .loading{
-  width: 150px;
+
+  outline: 2px solid white;
+  background-color: white;
+  margin-top: 150px;
+  max-width: 160px;
+  width: 100%;
+  height: 3px;
   position: relative;
-  height: 2px;
-  background-color: #E7E7E7;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: 3px;
 }
 
 .preloadContainer .loading .loader{
   position: absolute;
-  width: 150px;
-  height: 2px;
-  left:0px;
-  background-color: #0096FF;
+  width: 160px;
+  height:  3px;
+  left: 0;
+  background-color: var(--grayMd);
   animation: progress 0.85s ease-in-out forwards;
   border-radius: 20px;
 }
@@ -46,9 +60,11 @@
 @keyframes progress {
   0%{
     width: 0;
+    opacity: 1;
     
   }
   100%{
+    width:100%;
     opacity: 1;
   }
 }
@@ -61,7 +77,4 @@ svg{
 
 image{
   width: 100%;
-  outline: none !important;
-  border: none !important;
-  box-shadow: none !important;
 }

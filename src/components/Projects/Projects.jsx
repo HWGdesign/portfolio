@@ -31,14 +31,9 @@ const Projects = () => {
                       <Icon.Illustrator />
                     </span>
                   </div>
-                  <p class='leading-relaxed mb-3'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <p class='leading-relaxed mb-1'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                   <a href='#' class='flex text-sm font-semibold text-blue pt-3'>
                     Learn More
-                    <div class='mb-1 mx-2 w-4 -rotate-90'>
-                      <span>
-                        <Icon.Arrow />
-                      </span>
-                    </div>
                   </a>
                 </div>
               </div>
@@ -61,14 +56,9 @@ const Projects = () => {
                       <Icon.Illustrator />
                     </span>
                   </div>
-                  <p class='leading-relaxed mb-3'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <p class='leading-relaxed mb-1'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                   <a href='#' class='flex text-sm font-semibold text-blue pt-3'>
                     Learn More
-                    <div class='mb-1 mx-2 w-4 -rotate-90'>
-                      <span>
-                        <Icon.Arrow />
-                      </span>
-                    </div>
                   </a>
                 </div>
               </div>
@@ -91,19 +81,15 @@ const Projects = () => {
                       <Icon.Illustrator />
                     </span>
                   </div>
-                  <p class='leading-relaxed mb-3'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <p class='leading-relaxed mb-1'>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                   <a href='#' class='flex text-sm font-semibold text-blue pt-3'>
                     Learn More
-                    <div class='mb-1 mx-2 w-4 -rotate-90'>
-                      <span>
-                        <Icon.Arrow />
-                      </span>
-                    </div>
                   </a>
                 </div>
               </div>
             </div>
           </div>
+          <div class='flex justify-center items-center text-sm font-semibold text-grayLt py-5 hover:text-blue cursor-pointer hover:scale-105 duration-200'>See all</div>
         </div>
       </div>
     </section>

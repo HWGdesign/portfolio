@@ -12,7 +12,7 @@ const Services = () => {
       <div class='flex justify-center items-center'>
         <div class='flex flex-wrap justify-center w-full md:w-4/5'>
           <div class=' md:w-1/2'>
-            <div class='hover:scale-105 duration-200 hover:shadow-sm  border border-grayLt p-5 m-5 rounded-lg relative h-auto w-auto'>
+            <div class='hover:scale-105 duration-200 hover:shadow-sm border border-grayLt p-5 m-5 rounded-lg relative h-auto w-auto'>
               <div class='  bg-blue text-white p-2 w-10 h-10 rounded-full absolute top-[-30px] left-0 right-0 m-auto'>
                 <Icon.Web />
               </div>
