@@ -9,11 +9,11 @@ const Navigaiton = () => {
         </span>
       </div>
 
-      <div class='hidden lg:block '>
-        <ul class='flex gap-10  font-medium'>
+      <div class='hidden lg:block flex justify-center items-center'>
+        <ul class='flex gap-10  font-medium justify-center'>
           <li>
-            <div class='grid grid-row text-end text-sm text-dark hover:text-blue hover:font-semibold w-[100px] '>
-              01
+            <div class='group  grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
+              <span class='group-hover:text-blue  text-grayMd'>01</span>
               <div class='text-base '>
                 <a href='#'>HOME</a>
               </div>
@@ -21,8 +21,8 @@ const Navigaiton = () => {
           </li>
 
           <li>
-            <div class='grid grid-row text-end text-sm text-dark hover:text-blue hover:font-semibold w-[100px] '>
-              01
+            <div class='group grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
+              <span class='group-hover:text-blue text-grayMd'>02</span>
               <div class='text-base '>
                 <a href='#'>SERVICES</a>
               </div>
@@ -30,8 +30,8 @@ const Navigaiton = () => {
           </li>
 
           <li>
-            <div class='grid grid-row text-end text-sm text-dark hover:text-blue hover:font-semibold w-[100px] '>
-              01
+            <div class='group grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
+              <span class='group-hover:text-blue text-grayMd'>03</span>
               <div class='text-base '>
                 <a href='#'>PORTFOLIO</a>
               </div>
@@ -39,8 +39,8 @@ const Navigaiton = () => {
           </li>
 
           <li>
-            <div class='grid grid-row text-end text-sm text-dark hover:text-blue hover:font-semibold w-[100px] '>
-              01
+            <div class='group grid grid-row  text-sm font-semibold text-dark hover:text-blue hover:font-semibold w-[100px] '>
+              <span class='group-hover:text-blue text-grayMd'>04</span>
               <div class='text-base '>
                 <a href='#'>CONTACT</a>
               </div>

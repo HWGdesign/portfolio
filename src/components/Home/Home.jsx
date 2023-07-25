@@ -27,7 +27,7 @@ const Home = () => {
 
         <div class='grid gap-5'>
           <div class='flex items-center justify-center relative w-full'>
-            <div class='absolute text-grayLt top-1/2 bottom-1/2 left-[40px] p-3'>
+            <div class='absolute opacity-50 text-grayLt top-1/2 bottom-1/2 left-[40px] p-3'>
               <Icon.SquaresDecoration />
             </div>
 
@@ -54,7 +54,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div class='group flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[100px]'>
+      <div class='group flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[7.5%]'>
         <div class='hover:scale-105 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
           <span class='group-hover:scale-110 w-4 text-dark justify-center items-center flex'>
             <Icon.Arrow />
