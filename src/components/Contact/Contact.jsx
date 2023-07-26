@@ -1,14 +1,10 @@
 import { Icon } from '../Icons/Icon';
+import { ContactSection } from '../Sections/Section';
 
 const Contact = () => {
   return (
     <section id='contact' class='text-dark container mx-auto pb-[25px]'>
-      <div class='mx-5 my-8 flex font-semibold '>
-        <h1>O4</h1>
-        <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-md-full'></div>
-        <h1>CONTACT</h1>
-      </div>
-
+      <ContactSection />
       <div class='container mx-auto pt-5'>
         <div class='flex flex-col text-center w-full'>
           <h1 class='flex items-center justify-center text-3xl sm:text-4xl text-blue font-bold pb-5'>Have a project in mind?</h1>
@@ -16,7 +12,6 @@ const Contact = () => {
             <p class='font-semibold text-grayMd text-ellipsis'>Say hello, and let's work together to make your vision come true!</p>
           </div>
         </div>
-
         <div class='md:w-4/5 w-full mx-auto'>
           <div class='relative flex sm:justify-around flex-wrap justify-center py-4'>
             <div class='absolute text-grayLt opacity-50 top-[30%] z-0 right-0'>
@@ -53,7 +48,7 @@ const Contact = () => {
                 </label>
                 <input
                   type='text'
-                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                  class=' w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-blue text-base outline-none text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                 ></input>
               </div>
             </div>
@@ -66,7 +61,7 @@ const Contact = () => {
                   type='text'
                   id='email'
                   name='email'
-                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-blue text-base outline-none text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                 ></input>
               </div>
             </div>
@@ -78,7 +73,7 @@ const Contact = () => {
                 <textarea
                   id='message'
                   name='message'
-                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 h-[200px] text-base outline-none text-dark py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-blue h-[200px] text-base outline-none text-dark py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
                 ></textarea>
               </div>
             </div>

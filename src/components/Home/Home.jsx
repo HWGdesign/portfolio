@@ -1,13 +1,10 @@
+import { HomeSection } from '../Sections/Section.jsx';
 import { Icon } from '../Icons/Icon';
 
 const Home = () => {
   return (
     <section id='home' class='w-full h-screen mx-auto container relative justify-center pt-[110px]'>
-      <div class='py- m-5 flex font-semibold '>
-        <h1>O1</h1>
-        <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
-        <h1>HOME</h1>
-      </div>
+      <HomeSection />
       <div class='absolute grid gap-5 left-1/2 right-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full mx-auto'>
         <div>
           <div class='flex items-center justify-center text-3xl sm:text-4xl text-blue font-bold'>
