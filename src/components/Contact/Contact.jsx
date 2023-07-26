@@ -2,7 +2,7 @@ import { Icon } from '../Icons/Icon';
 
 const Contact = () => {
   return (
-    <section id='contact' class='text-dark container mx-auto pb-[50px]'>
+    <section id='contact' class='text-dark container mx-auto pb-[25px]'>
       <div class='mx-5 my-8 flex font-semibold '>
         <h1>O4</h1>
         <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-md-full'></div>
@@ -83,8 +83,18 @@ const Contact = () => {
               </div>
             </div>
             <div class='p-2 w-full'>
-              <button class=' text-white bg-blue w-full justify-center items-center border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-md text-lg font-semibold'>Submit</button>
+              <button class=' text-white bg-blue w-full justify-center items-center border-0 py-2 px-8 mb-[50px] focus:outline-none hover:bg-indigo-600 rounded-md text-lg font-semibold'>Submit</button>
             </div>
+            <a href='#home'>
+              <div class='group flex items-center gap-[20px] text-md font-semibold text-dark  px-2'>
+                <div class='rotate-180 hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt  rounded-full '>
+                  <span class='w-full text-dark justify-center items-center flex'>
+                    <Icon.Arrow />
+                  </span>
+                </div>
+                BACK TO THE TOP
+              </div>
+            </a>
           </div>
         </div>
       </div>
