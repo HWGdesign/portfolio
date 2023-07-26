@@ -30,26 +30,30 @@ const Home = () => {
               <Icon.SquaresDecoration />
             </div>
 
-            <div class='hover:shadow-sm rounded-md  hover:scale-105 cursor-pointer duration-200 flex items-center justify-center bg-blue h-[50px] w-[200px] font-semibold text-base text-white relative '>
-              Hire me
-              <div class='absolute h-[50] w-[50px] flex justify-center items-center right-0 top-0 bottom-0'>
-                <span class='w-3 text-white -rotate-90'>
-                  <Icon.Arrow />
-                </span>
+            <a href='#contact'>
+              <div class='hover:shadow-sm rounded-md  hover:scale-105 cursor-pointer duration-200 flex items-center justify-center bg-blue h-[50px] w-[200px] font-semibold text-base text-white relative '>
+                Hire me
+                <div class='absolute h-[50] w-[50px] flex justify-center items-center right-0 top-0 bottom-0'>
+                  <span class='w-3 text-white -rotate-90'>
+                    <Icon.Arrow />
+                  </span>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class='flex items-center justify-center'>
-            <div class='hover:shadow-sm rounded-md  hover:scale-105 cursor-pointer duration-200 flex items-center justify-center bg-white border-grayMd border-2 text-dark h-[50px] w-[200px] font-semibold text-base relative z-10 '>
-              Portfolio
-              <div class='absolute h-[50] w-[50px] flex justify-center items-center right-0 top-0 bottom-0'>
-                <span class='w-3 text-dark -rotate-90'>
-                  <Icon.Arrow />
-                </span>
+          <a href='#portfolio'>
+            <div class='flex items-center justify-center'>
+              <div class='hover:shadow-sm rounded-md  hover:scale-105 cursor-pointer duration-200 flex items-center justify-center bg-white border-grayMd border-2 text-dark h-[50px] w-[200px] font-semibold text-base relative z-10 '>
+                Portfolio
+                <div class='absolute h-[50] w-[50px] flex justify-center items-center right-0 top-0 bottom-0'>
+                  <span class='w-3 text-dark -rotate-90'>
+                    <Icon.Arrow />
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div class='group flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[7.5%]'>

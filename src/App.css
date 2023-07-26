@@ -14,6 +14,10 @@
   
 }
 
+#contact {
+  scroll-margin-top: 125px !important;
+}
+
 /* ---------------------------------------------------------------- */
 /* NavigationFix */
 #services, #portfolio{

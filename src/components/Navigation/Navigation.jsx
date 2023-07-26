@@ -1,11 +1,12 @@
 import { Icon } from '../Icons/Icon';
 import DarkModeSwitch from './DarkModeSwitch';
+import HamburgerMenu from './HamburgerMenu';
 
 const Navigaiton = () => {
   return (
     <header class='bg-white h-[100px] fixed w-full z-10 border-b border-grayLt flex items-center justify-between px-[3.5%] sm:px-[7.5%]'>
       <a href='#home'>
-        <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer w-[100px] h-[100px] flex items-center justify-center'>
+        <div class='hover:scale-105 duration-200 cursor-pointer w-[100px] h-[100px] flex items-center justify-center'>
           <span class='w-[50px] text-blue'>
             <Icon.Logo />
           </span>
@@ -54,11 +55,7 @@ const Navigaiton = () => {
 
       <div class='flex gap-[20px]'>
         <DarkModeSwitch />
-        <div class='flex hover:scale-105 duration-200 hover:shadow-sm cursor-pointer justify-center items-center h-[50px] w-[50px] lg:hidden l'>
-          <span className='w-[30px]'>
-            <Icon.Hamburger />
-          </span>
-        </div>
+        <HamburgerMenu />
       </div>
     </header>
   );
