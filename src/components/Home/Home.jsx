@@ -1,5 +1,4 @@
 import { Icon } from '../Icons/Icon';
-import Slide from 'react-reveal/Slide';
 
 const Home = () => {
   return (
@@ -54,13 +53,13 @@ const Home = () => {
         </div>
       </div>
       <div class='group flex justify-center items-center absolute mx-auto right-0 left-0 bottom-[7.5%]'>
-        <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
-          <span class='w-full text-dark justify-center items-center flex'>
-            <a href='#services'>
+        <a href='#services'>
+          <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
+            <span class='w-full text-dark justify-center items-center flex'>
               <Icon.Arrow />
-            </a>
-          </span>
-        </div>
+            </span>
+          </div>
+        </a>
       </div>
     </section>
   );

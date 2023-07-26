@@ -52,10 +52,10 @@ const Navigaiton = () => {
         </ul>
       </div>
 
-      <div class='flex gap-[10px]'>
+      <div class='flex gap-[20px]'>
         <DarkModeSwitch />
-        <div class='flex justify-center items-center h-[50px] w-[50px] lg:hidden l'>
-          <span className='w-6'>
+        <div class='flex hover:scale-105 duration-200 hover:shadow-sm cursor-pointer justify-center items-center h-[50px] w-[50px] lg:hidden l'>
+          <span className='w-[30px]'>
             <Icon.Hamburger />
           </span>
         </div>

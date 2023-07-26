@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div class='flex flex-wrap -m-2 px-5'>
+          <div class='flex flex-wrap -m-2 mx-5'>
             <div class='p-2 sm:w-1/2 w-full'>
               <div class='relative'>
                 <label for='name' class='leading-7 text-sm text-dark font-semibold'>
