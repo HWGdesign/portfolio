@@ -3,7 +3,7 @@ import { ContactSection } from '../Sections/Section';
 
 const Contact = () => {
   return (
-    <section id='contact' class='text-dark container mx-auto pb-[25px]'>
+    <section id='contact' class='text-dark container mx-auto pb-[50px]'>
       <ContactSection />
       <div class='container mx-auto pt-5'>
         <div class='flex flex-col text-center w-full'>
@@ -12,7 +12,7 @@ const Contact = () => {
             <p class='font-semibold text-grayMd text-ellipsis'>Say hello, and let's work together to make your vision come true!</p>
           </div>
         </div>
-        <div class='md:w-4/5 w-full mx-auto'>
+        <div class='lg:w-4/5 w-full mx-auto'>
           <div class='relative flex sm:justify-around flex-wrap justify-center py-4'>
             <div class='absolute text-grayLt opacity-50 top-[30%] z-0 right-0'>
               <Icon.SquaresDecoration />
@@ -82,7 +82,7 @@ const Contact = () => {
             </div>
             <a href='#home'>
               <div class='group flex items-center gap-[20px] text-md font-semibold text-dark  px-2'>
-                <div class='rotate-180 hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt  rounded-full '>
+                <div class='rotate-180 hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex items-center w-[40px] h-[40px] p-3 bg-white border-2 border-grayLt  rounded-full '>
                   <span class='w-full text-dark justify-center items-center flex'>
                     <Icon.Arrow />
                   </span>
