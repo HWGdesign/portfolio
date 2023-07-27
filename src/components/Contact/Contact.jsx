@@ -1,9 +1,17 @@
 import { Icon } from '../Icons/Icon';
 import { ContactSection } from '../Sections/Section';
+import Images from '../images/Images.jsx';
 
 const Contact = () => {
   return (
-    <section id='contact' class='text-dark container mx-auto pb-[50px]'>
+    <section id='contact' class='text-dark container mx-auto pb-[50px] relative'>
+      <div class='absolute top-40 right-0 lg:right-1/5 scale-50 opacity-50'>
+        <img class='w-full h-full' src={Images.dots} alt='barber' />
+      </div>
+
+      <div class='absolute left-1/2 -bottom-[35px] opacity-30 scale-50'>
+        <img class='w-full h-full scale-50' src={Images.triangle2} alt='barber' />
+      </div>
       <ContactSection />
       <div class='container mx-auto pt-5'>
         <div class='flex flex-col text-center w-full'>
@@ -13,10 +21,7 @@ const Contact = () => {
           </div>
         </div>
         <div class='lg:w-4/5 w-full mx-auto'>
-          <div class='relative flex sm:justify-around flex-wrap justify-center py-4'>
-            <div class='absolute text-grayLt opacity-50 top-[30%] z-0 right-0'>
-              <Icon.SquaresDecoration />
-            </div>
+          <div class='flex sm:justify-around flex-wrap justify-center py-4'>
             <div class='flex'>
               <div class='w-[50px] h-[50px] flex items-center justify-center'>
                 <span className='w-5'>

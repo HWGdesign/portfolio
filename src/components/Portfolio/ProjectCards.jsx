@@ -7,8 +7,8 @@ const project = [{ title: 'BARBER SHOP LOGO', snippet: 'I crafted these logos to
 
 const BarberShopLogoProject = () => {
   return (
-    <div class='md:p-3 sm:p-8 p-5 md:w-1/3'>
-      <div class='h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden hover:scale-105 duration-200 hover:shadow-sm'>
+    <div class='md:p-3 sm:p-8 p-5 md:w-1/3 z-20'>
+      <div class='bg-white h-full border-2 border-grayLt border-opacity-60 rounded-lg overflow-hidden hover:scale-105 duration-200 hover:shadow-sm'>
         <div class='p-6'>
           <h2 class='tracking-widest text-xs title-font font-medium text-grayMd mb-1'>{cathegory[0]}</h2>
           <h1 class='text-lg font-semibold text-dark'>{project[0].title}</h1>
@@ -24,7 +24,7 @@ const BarberShopLogoProject = () => {
               <Icon.Illustrator />
             </span>
           </div>
-          <p class='leading-relaxed mb-1'>{project[0].snippet}</p>
+          <p class='leading-relaxed text-dark mb-1'>{project[0].snippet}</p>
           <a href='#' class='flex text-sm font-semibold text-blue pt-3'>
             Learn More
           </a>

@@ -8,7 +8,15 @@ const Home = () => {
       <HomeSection />
       {/* <div class='lg:w-1/2 h-full bg-blue'>4eg4</div> */}
 
-      <div class=' absolute hidden lg:flex right-0 top-1/5 cursor-pointer'>
+      <div class='absolute left-1/5 top-1/5 opacity-50 scale-[25%] z-0'>
+        <img class='w-full h-full' src={Images.triangle2} alt='barber' />
+      </div>
+
+      <div class='absolute bottom-[15%] right-0 lg:right-1/5 scale-75 z-0'>
+        <img class='w-full h-full' src={Images.dots} alt='barber' />
+      </div>
+
+      <div class='animate-jump-in animate-duration-[2000ms] animate-delay-1000 absolute hidden lg:flex right-0 top-1/5 cursor-pointer'>
         <img class='w-full h-full scale-75 duration-200' src={Images.blob} alt='barber' />
       </div>
 
@@ -21,7 +29,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div class='flex items-center justify-center lg:text-start text-center sm:text-lg text-md text- p-5 lg:pl-0 font-semibold  tracking-wide'>
+          <div class='flex items-center justify-center lg:text-start text-dark text-center sm:text-lg text-md text- p-5 lg:pl-0 font-semibold  tracking-wide'>
             <p>
               Great that you dropped by! <br></br>
               <span class='text-blue font-bold'>Websites, Graphic designs, UI & UX. </span>
@@ -32,10 +40,6 @@ const Home = () => {
 
           <div class='grid gap-[15px] lg:grid-flow-col justify-center'>
             <div class='flex items-center justify-center relative w-full'>
-              <div class='absolute opacity-50 text-grayLt top-1/2 bottom-1/2 left-[40px] p-3'>
-                <Icon.SquaresDecoration />
-              </div>
-
               <a href='#contact'>
                 <div class='hover:shadow-sm rounded-md  hover:scale-105 cursor-pointer duration-200 flex items-center justify-center bg-blue h-[50px] w-[200px] font-semibold text-base text-white relative '>
                   Hire me
@@ -64,7 +68,7 @@ const Home = () => {
           <div class='group flex lg:justify-start justify-center items-center absolute mx-auto right-0 left-0 bottom-[7.5%]'></div>
           <div class='absolute lg:-bottom-[100%] sm:-bottom-[52.5%] -bottom-[50%] animate-bounce'>
             <a href='#services'>
-              <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[40px] h-[40px] p-3 bg-white border-2 border-grayLt rounded-full '>
+              <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
                 <span class='w-full text-dark justify-center items-center flex'>
                   <Icon.Arrow />
                 </span>
