@@ -4,7 +4,7 @@ const Images = {
   blob2: require('./png/blob2.png'),
   circle: require('./png/circle.png'),
   circle2: require('./png/circle2.png'),
-  circleEmpty: require('./png/cricleEmpty.png'),
+  circleEmpty: require('./png/circleEmpty.png'),
   dots: require('./png/dots.png'),
   photoBlack: require('./png/photoBlack.png'),
   photoColor: require('./png/photoColor.png'),

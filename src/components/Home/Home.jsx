@@ -8,16 +8,16 @@ const Home = () => {
       <HomeSection />
       {/* <div class='lg:w-1/2 h-full bg-blue'>4eg4</div> */}
 
-      <div class='absolute left-1/5 top-1/5 opacity-50 scale-[25%] z-0'>
+      <div class='absolute right-3/4 sm:top-[15%] top-[20%] opacity-50 scale-[30%] sm:scale-[20%] z-0 select-none'>
         <img class='w-full h-full' src={Images.triangle2} alt='barber' />
       </div>
 
-      <div class='absolute bottom-[15%] right-0 lg:right-1/5 scale-75 z-0'>
+      <div class='absolute bottom-[15%] right-0 lg:right-1/5 sm:scale-75 scale-[55%] z-0 select-none'>
         <img class='w-full h-full' src={Images.dots} alt='barber' />
       </div>
 
-      <div class='animate-jump-in animate-duration-[2000ms] animate-delay-1000 absolute hidden lg:flex right-0 top-1/5 cursor-pointer'>
-        <img class='w-full h-full scale-75 duration-200' src={Images.blob} alt='barber' />
+      <div class=' animate-jump-in animate-duration-[1500ms] animate-delay-[450ms] absolute hidden lg:flex right-0 top-1/5 select-none '>
+        <img class='w-full h-full scale-[60%] xl:scale-75 duration-200' src={Images.blob} alt='barber' />
       </div>
 
       <div class='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-4/5'>

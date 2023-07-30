@@ -5,7 +5,7 @@ import Images from '../images/Images.jsx';
 const Services = () => {
   return (
     <section id='services' class='container mx-auto w-full relative'>
-      <div class='absolute right-0 -top-[50px] opacity-50 scale-50'>
+      <div class='absolute right-0 -top-[50px] opacity-30 scale-50'>
         <img class='w-full h-full' src={Images.triangle2} alt='barber' />
       </div>
 
