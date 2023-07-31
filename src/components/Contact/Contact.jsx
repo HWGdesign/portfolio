@@ -5,11 +5,11 @@ import Images from '../images/Images.jsx';
 const Contact = () => {
   return (
     <section id='contact' class='text-dark container mx-auto pb-[50px] relative'>
-      <div class='absolute top-40 right-0 lg:right-1/5 scale-50 opacity-50'>
+      <div class='absolute top-40 right-0 lg:right-1/5 scale-50 opacity-50 select-none'>
         <img class='w-full h-full' src={Images.dots} alt='barber' />
       </div>
 
-      <div class='absolute left-1/2 -bottom-[35px] opacity-30 scale-50'>
+      <div class='absolute left-1/2 -bottom-[35px] opacity-30 scale-50 select-none'>
         <img class='w-full h-full scale-50' src={Images.triangle2} alt='barber' />
       </div>
       <ContactSection />
@@ -46,48 +46,36 @@ const Contact = () => {
           </div>
 
           <div class='flex flex-wrap -m-2 mx-5'>
-            <div class='p-2 sm:w-1/2 w-full'>
+            <div class='py-1 sm:w-1/2 sm:pr-1 lg:pr-2 w-full'>
               <div class='relative'>
                 <label for='name' class='leading-7 text-sm text-dark font-semibold'>
                   Name
                 </label>
-                <input
-                  type='text'
-                  class=' w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-blue text-base outline-none text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
-                ></input>
+                <input type='text' id='name' class=' w-full bg-white border-grayLt border-2 rounded-md focus:outline-blue  text-base  text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'></input>
               </div>
             </div>
-            <div class='p-2 sm:w-1/2 w-full'>
+            <div class='py-1 sm:w-1/2 sm:pl-1 lg:pl-2 w-full'>
               <div class='relative'>
                 <label for='email' class='leading-7 text-sm text-dark font-semibold'>
                   Email
                 </label>
-                <input
-                  type='text'
-                  id='email'
-                  name='email'
-                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-blue text-base outline-none text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
-                ></input>
+                <input type='text' id='email' name='email' class='w-full bg-white border-grayLt border-2 focus:outline-blue rounded-md  text-base  text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'></input>
               </div>
             </div>
-            <div class='p-2 w-full'>
+            <div class='py-1 w-full'>
               <div class='relative'>
                 <label for='message' class='leading-7 text-sm text-dark font-semibold'>
                   Message
                 </label>
-                <textarea
-                  id='message'
-                  name='message'
-                  class='w-full bg-grayLt  bg-opacity-50 rounded-md focus:border-blue focus:bg-white focus:ring-2 focus:ring-blue h-[200px] text-base outline-none text-dark py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
-                ></textarea>
+                <textarea id='message' name='message' class='w-full bg-white border-grayLt border-2 focus:outline-blue rounded-md h-[200px] text-base  text-dark py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'></textarea>
               </div>
             </div>
-            <div class='p-2 w-full'>
-              <button class=' text-white bg-blue w-full justify-center items-center border-0 py-2 px-8 mb-[50px] focus:outline-none hover:bg-indigo-600 rounded-md text-lg font-semibold'>Submit</button>
+            <div class='py-1 w-full'>
+              <button class=' text-white bg-blue w-full justify-center items-center border-0 py-2 px-8 mb-[50px] hover:bg-indigo-600 rounded-md text-lg font-semibold'>Submit</button>
             </div>
             <a href='#home'>
               <div class='group flex items-center gap-[20px] text-md font-semibold text-dark  px-2'>
-                <div class='rotate-180 hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex items-center w-[40px] h-[40px] p-3 bg-white border-2 border-grayLt  rounded-full '>
+                <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[40px] h-[40px] p-3 rotate-180 bg-white border-2 border-grayLt rounded-full '>
                   <span class='w-full text-dark justify-center items-center flex'>
                     <Icon.Arrow />
                   </span>
