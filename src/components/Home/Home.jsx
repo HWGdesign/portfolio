@@ -8,7 +8,7 @@ const Home = () => {
       <div className='absolute top-[10px] left-0'>
         <HomeSection />
       </div>
-      <div class='absolute left-1/6 top-[7.5%] opacity-50 scale-[25%] sm:scale-[30%] z-0 select-none'>
+      <div class='absolute -left-[7.5%] sm:left-0 top-[0.5%] opacity-50 scale-[20%] sm:scale-[22.5%] z-0 select-none'>
         <img class='w-full h-full' src={Images.triangle2} alt='barber' />
       </div>
 
@@ -20,7 +20,7 @@ const Home = () => {
         <img class='w-full h-full scale-[60%] xl:scale-75 duration-200' src={Images.blob} alt='barber' />
       </div>
 
-      <div class='absolute top-[37.5%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-4/5'>
+      <div class='absolute top-[37.5%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-4/5 '>
         <div class='hidden float-right lg:flex lg:w-1/2'></div>
         <div class='flex gap-[15px] lg:items-start justify-center items-center flex-col w-full lg:w-1/2'>
           <div>

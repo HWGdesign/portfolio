@@ -1,4 +1,5 @@
 const Images = {
+  arrows: require('./png/arrows.png'),
   barber: require('./jpg/barber.jpg'),
   blob: require('./png/blob.png'),
   blob2: require('./png/blob2.png'),

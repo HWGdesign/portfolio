@@ -5,12 +5,8 @@ import Images from '../images/Images.jsx';
 const Contact = () => {
   return (
     <section id='contact' class='text-dark container mx-auto pb-[50px] relative transition-all'>
-      <div class='absolute top-40 right-0 lg:right-1/5 scale-50 opacity-50 select-none'>
-        <img class='w-full h-full' src={Images.dots} alt='barber' />
-      </div>
-
-      <div class='absolute left-1/2 -bottom-[35px] opacity-30 scale-50 select-none'>
-        <img class='w-full h-full scale-50' src={Images.triangle2} alt='barber' />
+      <div class='absolute left-1/2 -bottom-[120px] sm:-bottom-[175px] select-none z-0'>
+        <img class='w-full h-full scale-50' src={Images.circle2} alt='barber' />
       </div>
       <ContactSection />
       <div class='container mx-auto pt-5'>

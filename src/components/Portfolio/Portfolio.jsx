@@ -7,11 +7,11 @@ const Portfolio = () => {
     <section id='portfolio' class='mx-auto container relative transition-all'>
       <PortfolioSection />
 
-      <div class='absolute right-0 -top-[50px] opacity-50 scale-50 z-0 select-none'>
+      <div class='absolute right-0 -top-[75px] opacity-50 scale-50 z-0 select-none'>
         <img class='w-full h-full' src={Images.circle2} alt='barber' />
       </div>
 
-      <div class='absolute left-0 -bottom-[35px] scale-50 select-none'>
+      <div class='absolute -right-[50px] -bottom-[125px] scale-50 select-none'>
         <img class='w-full h-full' src={Images.circleEmpty} alt='barber' />
       </div>
 
