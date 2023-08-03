@@ -8,11 +8,11 @@ const Home = () => {
       <div className='absolute top-[10px] left-0'>
         <HomeSection />
       </div>
-      <div class='absolute right-3/4 sm:top-[15%] top-[20%] opacity-50 scale-[30%] sm:scale-[20%] z-0 select-none'>
+      <div class='absolute left-1/6 top-[7.5%] opacity-50 scale-[25%] sm:scale-[30%] z-0 select-none'>
         <img class='w-full h-full' src={Images.triangle2} alt='barber' />
       </div>
 
-      <div class='absolute bottom-[15%] right-0 lg:right-1/5 sm:scale-75 scale-[55%] z-0 select-none'>
+      <div class='absolute bottom-[20%] right-0 sm:scale-[90%] scale-[65%] z-0 select-none'>
         <img class='w-full h-full' src={Images.dots} alt='barber' />
       </div>
 
