@@ -4,7 +4,7 @@ import Images from '../images/Images.jsx';
 
 const Contact = () => {
   return (
-    <section id='contact' class='text-dark container mx-auto pb-[50px] relative'>
+    <section id='contact' class='text-dark container mx-auto pb-[50px] relative transition-all'>
       <div class='absolute top-40 right-0 lg:right-1/5 scale-50 opacity-50 select-none'>
         <img class='w-full h-full' src={Images.dots} alt='barber' />
       </div>
@@ -46,31 +46,40 @@ const Contact = () => {
           </div>
 
           <div class='flex flex-wrap -m-2 mx-5'>
-            <div class='py-1 sm:w-1/2 sm:pr-1 lg:pr-2 w-full'>
+            <div class='py-[5px] sm:w-1/2 sm:pr-1 lg:pr-2 w-full'>
               <div class='relative'>
                 <label for='name' class='leading-7 text-sm text-dark font-semibold'>
                   Name
                 </label>
-                <input type='text' id='name' class=' w-full bg-white border-grayLt border-2 rounded-md focus:outline-blue  text-base  text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'></input>
+                <input type='text' id='name' class=' w-full bg-white border-grayLt border-2 rounded-md focus:outline-blue focus:border-none  text-base  text-dark py-[5px] px-3 leading-8 transition-colors duration-200 ease-in-out'></input>
               </div>
             </div>
-            <div class='py-1 sm:w-1/2 sm:pl-1 lg:pl-2 w-full'>
+            <div class='py-[5px] sm:w-1/2 sm:pl-1 lg:pl-2 w-full'>
               <div class='relative'>
                 <label for='email' class='leading-7 text-sm text-dark font-semibold'>
                   Email
                 </label>
-                <input type='text' id='email' name='email' class='w-full bg-white border-grayLt border-2 focus:outline-blue rounded-md  text-base  text-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'></input>
+                <input
+                  type='text'
+                  id='email'
+                  name='email'
+                  class='w-full bg-white border-grayLt border-2 focus:outline-blue focus:border-none rounded-md  text-base  text-dark py-[5px] px-3 leading-8 transition-colors duration-200 ease-in-out'
+                ></input>
               </div>
             </div>
-            <div class='py-1 w-full'>
+            <div class='py-[5px] w-full'>
               <div class='relative'>
                 <label for='message' class='leading-7 text-sm text-dark font-semibold'>
                   Message
                 </label>
-                <textarea id='message' name='message' class='w-full bg-white border-grayLt border-2 focus:outline-blue rounded-md h-[200px] text-base  text-dark py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'></textarea>
+                <textarea
+                  id='message'
+                  name='message'
+                  class='w-full bg-white border-grayLt border-2 focus:outline-blue focus:border-none rounded-md h-[200px] text-base  text-dark py-[5px] px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                ></textarea>
               </div>
             </div>
-            <div class='py-1 w-full'>
+            <div class='pb-[5px] pt-[15px] w-full'>
               <button class=' text-white bg-blue w-full justify-center items-center border-0 py-2 px-8 mb-[50px] hover:bg-indigo-600 rounded-md text-lg font-semibold'>Submit</button>
             </div>
             <a href='#home'>

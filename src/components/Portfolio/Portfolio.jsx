@@ -4,7 +4,7 @@ import Images from '../images/Images.jsx';
 
 const Portfolio = () => {
   return (
-    <section id='portfolio' class='mx-auto container relative'>
+    <section id='portfolio' class='mx-auto container relative transition-all'>
       <PortfolioSection />
 
       <div class='absolute right-0 -top-[50px] opacity-50 scale-50 z-0 select-none'>

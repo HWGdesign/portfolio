@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
+import Headroom from 'react-headroom';
+//Components:
 import Navigation from './components/Navigation/Navigation.jsx';
 import Home from './components/Home/Home.jsx';
 import Services from './components/Services/Services.jsx';
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Contact from './components/Contact/Contact.jsx';
+
 import './App.css';
 
 //----------------------------------------------------------------
@@ -25,7 +28,9 @@ function App() {
   return (
     !loading && (
       <main>
-        <Navigation />
+        <Headroom>
+          <Navigation />
+        </Headroom>
         <Fade bottom>
           <Home />
           <Services />

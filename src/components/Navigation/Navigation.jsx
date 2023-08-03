@@ -1,13 +1,13 @@
 import { Icon } from '../Icons/Icon';
-import DarkModeSwitch from './DarkModeSwitch';
+// import DarkModeSwitch from './DarkModeSwitch';
 import HamburgerMenu from './HamburgerMenu';
 
 const Navigaiton = () => {
   return (
-    <header class='bg-white h-[100px] fixed w-full z-10 border-b border-grayLt flex items-center justify-between px-[3.5%] sm:px-[7.5%]'>
+    <header class='bg-white h-[100px] w-full z-10 border-b border-grayLt text-white flex items-center justify-between px-[3.5%] sm:px-[7.5%] transition-all'>
       <a href='#home'>
-        <div class='hover:scale-105 duration-200 cursor-pointer w-[100px] h-[100px] flex items-center justify-center'>
-          <span class='w-[60px] text-blue'>
+        <div class='hover:scale-105 duration-200 cursor-pointer w-[100px] h-[100px] flex items-center justify-center text-blue'>
+          <span class='w-[60px] '>
             <Icon.Logo />
           </span>
         </div>
@@ -54,7 +54,7 @@ const Navigaiton = () => {
       </div>
 
       <div class='flex gap-[20px]'>
-        <DarkModeSwitch />
+        {/* <DarkModeSwitch /> */}
         <HamburgerMenu />
       </div>
     </header>

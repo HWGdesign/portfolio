@@ -4,10 +4,10 @@ import Images from '../images/Images.jsx';
 
 const Home = () => {
   return (
-    <section id='home' class='w-full h-screen mx-auto container relative justify-center pt-[110px]'>
-      <HomeSection />
-      {/* <div class='lg:w-1/2 h-full bg-blue'>4eg4</div> */}
-
+    <section id='home' class='w-full h-screen mx-auto container relative justify-center transition-all'>
+      <div className='absolute top-[10px] left-0'>
+        <HomeSection />
+      </div>
       <div class='absolute right-3/4 sm:top-[15%] top-[20%] opacity-50 scale-[30%] sm:scale-[20%] z-0 select-none'>
         <img class='w-full h-full' src={Images.triangle2} alt='barber' />
       </div>
@@ -20,7 +20,7 @@ const Home = () => {
         <img class='w-full h-full scale-[60%] xl:scale-75 duration-200' src={Images.blob} alt='barber' />
       </div>
 
-      <div class='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-4/5'>
+      <div class='absolute top-[37.5%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-4/5'>
         <div class='hidden float-right lg:flex lg:w-1/2'></div>
         <div class='flex gap-[15px] lg:items-start justify-center items-center flex-col w-full lg:w-1/2'>
           <div>
@@ -66,7 +66,7 @@ const Home = () => {
             </a>
           </div>
           <div class='group flex lg:justify-start justify-center items-center absolute mx-auto right-0 left-0 bottom-[7.5%]'></div>
-          <div class='absolute lg:-bottom-[100%] sm:-bottom-[52.5%] -bottom-[50%] animate-bounce'>
+          <div class='absolute lg:-bottom-[100%] sm:-bottom-[60%] -bottom-[52.5%] animate-bounce'>
             <a href='#services'>
               <div class='hover:scale-105 duration-200 hover:shadow-sm cursor-pointer flex justify-center items-center w-[50px] h-[50px] p-4 bg-white border-2 border-grayLt rounded-full '>
                 <span class='w-full text-dark justify-center items-center flex'>
