@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+:focus {
+  outline: none;
+  border: 2px solid var(--blue);
+}
+
 :root {
   --blue: #0096FF;
   --dark: #3D3838;

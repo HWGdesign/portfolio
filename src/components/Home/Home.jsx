@@ -10,11 +10,11 @@ const Home = () => {
       <div className='absolute top-[10px] left-0'>
         <HomeSection />
       </div>
-      <div class='absolute -left-[7.5%] sm:left-0 top-[0.5%] opacity-50 scale-[20%] sm:scale-[22.5%] z-0 select-none'>
+      <div class='absolute -left-[7.5%] sm:left-0 top-[0.5%] dark:opacity-25 scale-[20%] sm:scale-[22.5%] z-0 select-none'>
         <img class='w-full h-full' src={Images.triangle2} alt='barber' />
       </div>
 
-      <div class='absolute bottom-[20%] right-0 sm:scale-[90%] scale-[65%] z-0 select-none'>
+      <div class='absolute bottom-[20%] right-0 sm:scale-[90%] dark:opacity-25 scale-[65%] z-0 select-none'>
         <img class='w-full h-full' src={Images.dots} alt='barber' />
       </div>
 
