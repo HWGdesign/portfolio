@@ -11,7 +11,6 @@ import Contact from './components/Contact/Contact.jsx';
 
 import './App.css';
 
-//----------------------------------------------------------------
 // PreloadScreen:
 function App() {
   //PreLoadScreen
@@ -23,22 +22,27 @@ function App() {
       setLoading(false);
     }, 1050);
   }
-  //----------------------------------------------------------------
+
+  //DarkMode
+  const [darkMode, setDarkMode] = useState(false);
+
   //Current App:
   return (
     !loading && (
-      <main>
-        <Headroom>
-          <Navigation />
-        </Headroom>
-        <Fade bottom>
-          <Home />
-          <Services />
-          <Portfolio />
-          <Contact />
-        </Fade>
-        <Footer />
-      </main>
+      <body class={darkMode && 'dark'}>
+        <main class='bg-white dark:bg-dark'>
+          <Headroom>
+            <Navigation darkMode={darkMode} setDarkMode={setDarkMode} />
+          </Headroom>
+          <Fade bottom>
+            <Home />
+            <Services />
+            <Portfolio />
+            <Contact />
+          </Fade>
+          <Footer />
+        </main>
+      </body>
     )
   );
 }

@@ -1,12 +1,13 @@
 import { Icon } from '../Icons/Icon';
-// import DarkModeSwitch from './DarkModeSwitch';
+import DarkMode from './DarkMode';
 import HamburgerMenu from './HamburgerMenu';
+import LightMode from './LightMode';
 
-const Navigaiton = () => {
+const Navigation = ({ darkMode, setDarkMode }) => {
   return (
-    <header class='bg-white h-[100px] w-full z-10 border-b border-grayLt text-white flex items-center justify-between px-[3.5%] sm:px-[7.5%] transition-all'>
+    <header class='dark:bg-dark dark:border-grayMd bg-white h-[100px] w-full z-10 border-b border-grayLt flex items-center justify-between px-[3.5%] sm:px-[7.5%] transition-all'>
       <a href='#home'>
-        <div class='hover:scale-105 duration-200 cursor-pointer w-[100px] h-[100px] flex items-center justify-center text-blue'>
+        <div class='hover:scale-105 duration-200 cursor-pointer w-[100px] h-[100px] flex items-center justify-center text-blue dark:text-white'>
           <span class='w-[60px] '>
             <Icon.Logo />
           </span>
@@ -52,13 +53,12 @@ const Navigaiton = () => {
           </li>
         </ul>
       </div>
-
-      <div class='flex gap-[20px]'>
-        {/* <DarkModeSwitch /> */}
+      <div class='flex items-center gap-[20px]'>
+        <div onClick={() => setDarkMode(!darkMode)}>{darkMode ? <LightMode /> : <DarkMode />}</div>
         <HamburgerMenu />
       </div>
     </header>
   );
 };
 
-export default Navigaiton;
+export default Navigation;

@@ -7,7 +7,7 @@ const section = [
 
 const HomeSection = () => {
   return (
-    <div class='text-dark py- m-5 flex font-semibold '>
+    <div class='text-dark dark:text-grayMd py- m-5 flex font-semibold '>
       <h1>{section[0].number}</h1>
       <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
       <h1>{section[0].title}</h1>
@@ -17,7 +17,7 @@ const HomeSection = () => {
 
 const ServicesSection = () => {
   return (
-    <div class='text-dark py- m-5 flex font-semibold '>
+    <div class='text-dark dark:text-grayMd py- m-5 flex font-semibold '>
       <h1>{section[1].number}</h1>
       <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
       <h1>{section[1].title}</h1>
@@ -27,7 +27,7 @@ const ServicesSection = () => {
 
 const PortfolioSection = () => {
   return (
-    <div class='text-dark py- m-5 flex font-semibold '>
+    <div class='text-dark dark:text-grayMd py- m-5 flex font-semibold '>
       <h1>{section[2].number}</h1>
       <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
       <h1>{section[2].title}</h1>
@@ -37,7 +37,7 @@ const PortfolioSection = () => {
 
 const ContactSection = () => {
   return (
-    <div class='text-dark py- m-5 flex font-semibold '>
+    <div class='text-dark dark:text-grayMd py- m-5 flex font-semibold '>
       <h1>{section[3].number}</h1>
       <div class='h=[5px] bg-grayMd w-[2px] mx-5 rounded-full'></div>
       <h1>{section[3].title}</h1>
