@@ -1,5 +1,4 @@
 import { Icon } from '../Icons/Icon';
-import { FormSection } from '../Sections/Section';
 import Images from '../images/Images.jsx';
 
 const Form = () => {

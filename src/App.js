@@ -13,9 +13,9 @@ import './App.css';
 
 // PreloadScreen:
 function App() {
-  //PreLoadScreen
   const [loading, setLoading] = useState(true);
   const spinner = document.getElementById('spinner');
+
   if (spinner) {
     setTimeout(() => {
       spinner.style.display = 'none';
@@ -24,7 +24,7 @@ function App() {
   }
 
   //DarkMode
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   //Current App:
   return (
@@ -34,7 +34,7 @@ function App() {
           <Headroom>
             <Navigation darkMode={darkMode} setDarkMode={setDarkMode} />
           </Headroom>
-          <Fade bottom>
+          <Fade>
             <Home />
             <Services />
             <Portfolio />
